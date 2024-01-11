@@ -1,0 +1,62 @@
+<html>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+</body>
+</html>
+
+
+<nav class="nav1">
+  <h1 >
+    <!-- <a   routerLink="/"> -->
+    <a href="/">GoCAR</a></h1>
+    <!-- <i class="fab fa-old-republic fa-spin"></i>-->
+</nav>
+ <nav class="nav">  <div [ngSwitch]="menuType">
+     <ul *ngSwitchCase="'default'">
+      <li><a routerLink="login"><i style="font-size:24px" class="fa"></i>Login</a></li>
+      <li><a href="/"><i style="font-size:24px" class="fa">&#xf015;</i></a></li>
+
+    </ul>
+     <ul *ngSwitchCase="'user'">
+      <li><a href="/"><i style="font-size:24px" class="fa">&#xf015;</i></a></li>
+      <li><a  routerLink="">{{userName|titlecase}}</a></li>
+      <li><a (click)="userLogout()"><i style="font-size:24px" class="fa">&#xf08b;</i>Logout</a></li>
+      <li><a routerLink="my-orders">My Orders</a></li>
+      <li><a [routerLink]="cartItems>0?'cart-page':null"><i style="font-size:24px" class="fa">&#xf23d;</i>({{cartItems}})</a></li>
+     </ul>
+
+     <ul *ngSwitchCase="'admin'">
+      <div class="btn-group">
+        <button class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </button>
+        <div class="dropdown-menu">
+          <button class="dropdown-item" type="button">      <li><a routerLink="addproduct">Add Product</a></li>
+          </button>
+          <button class="dropdown-item" type="button">      <li><a routerLink="viewproducts">List of cars</a></li>
+          </button>
+          <button class="dropdown-item" type="button">      <li><a routerLink="listfeedback">Feedback review</a></li>
+          </button>
+        </div>
+      </div>
+      <li><a (click)="logout()">LogOut</a></li>
+      <li><a href="">{{name|titlecase}}</a></li>
+    </ul>
+   </div>
+
+   <div *ngIf="menuType!=='admin'" class="nav-search">
+    <input class="btn btn-outline-transparent" type="text" #searchInput  (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search"/>
+    <button class="btn btn-outline-transparent" (click)="submitSearch(searchInput.value)"><i style="font-size:24px" class="fa">&#xf002;</i></button>
+    <ul class="suggested-result" *ngIf="searchResult">
+           <li *ngFor="let item of searchResult">
+            <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+           </li>
+    </ul>
+    </div>
+
+</nav>

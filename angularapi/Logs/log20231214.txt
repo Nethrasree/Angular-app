@@ -1,0 +1,42 @@
+2023-12-14 20:12:52.590 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-14 20:12:54.970 +05:30 [INF] Now listening on: https://localhost:7266
+2023-12-14 20:12:54.972 +05:30 [INF] Now listening on: http://localhost:5255
+2023-12-14 20:12:54.975 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-14 20:12:54.995 +05:30 [INF] Hosting environment: Development
+2023-12-14 20:12:54.997 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-12-14 21:06:14.697 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-12-14 21:06:15.228 +05:30 [INF] CORS policy execution successful.
+2023-12-14 21:06:15.730 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:15.979 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-12-14 21:06:17.972 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-12-14 21:06:20.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-12-14 21:06:20.091 +05:30 [INF] CORS policy execution successful.
+2023-12-14 21:06:20.093 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:20.094 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-12-14 21:06:20.096 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-12-14 21:06:26.223 +05:30 [INF] Executed DbCommand (1,914ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-12-14 21:06:26.223 +05:30 [INF] Executed DbCommand (1,776ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-12-14 21:06:26.857 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-14 21:06:26.881 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-14 21:06:27.693 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 11693.2076ms
+2023-12-14 21:06:27.712 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 7616.4135ms
+2023-12-14 21:06:27.814 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:27.815 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:27.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 430 application/json;+charset=utf-8 7829.8085ms
+2023-12-14 21:06:28.079 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 430 application/json;+charset=utf-8 13386.2939ms
+2023-12-14 21:06:28.191 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-12-14 21:06:28.221 +05:30 [INF] CORS policy execution successful.
+2023-12-14 21:06:28.247 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:28.262 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-12-14 21:06:28.429 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-12-14 21:06:28.630 +05:30 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-12-14 21:06:28.678 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-14 21:06:28.871 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 608.1123ms
+2023-12-14 21:06:28.874 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-12-14 21:06:28.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 430 application/json;+charset=utf-8 685.0180ms

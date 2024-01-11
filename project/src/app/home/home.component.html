@@ -1,0 +1,91 @@
+
+  <!-- Image Header -->
+  <div class="w3-display-container w3-animate-opacity">
+  </div>
+
+<div class="product-list-wrapper">
+
+<!-- 
+<div class="selling-col-1">
+  <div class="selling-left">
+   <ul>
+    <li>
+      <span class="count-date" id="days">{{days}}</span>
+      <span class="count-day">Days</span>
+    </li>
+    <li>
+      <span class="count-date" id="hours">{{hours}}</span>
+      <span class="count-day">Hours</span>
+    </li>
+    <li>
+      <span class="count-date" id="mins">{{mins}}</span>
+      <span class="count-day">Minutes</span>
+    </li>
+    <li>
+      <span class="count-date" id="secs">{{secs}}</span>
+      <span class="count-day">Seconds</span>
+    </li>
+
+</ul>
+</div>
+</div> -->
+<div class="selling-col-2" >
+  <div class="selling-img">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img class="d-block w-100" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=75" alt="image1">
+          <h1>TOYOTA FORTUNER</h1>
+        </div>
+              <div class="carousel-item">
+          <img class="d-block w-100" src="https://imgd.aeplcdn.com/370x208/n/lfm5dva_1597306.jpg?q=75" alt="Second slide">
+          <h1>TATA ALTROZ </h1>
+        </div>
+               <div class="carousel-item">
+          <img class="d-block w-100" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/41205/carnival-exterior-right-front-three-quarter-55.jpeg?isig=0&q=75" alt="Third slide">
+            <h1>KIA CARNIVAL </h1>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+   <h1>Available Cars</h1>
+   <div class="row">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
+
+      <div class="product-item">
+        <div class="sale-price">
+          new<strong>sale</strong>
+        </div>
+        <img class="img" *ngIf="showdetails" routerLink="/details/{{item.id}}" src="{{item.image}}" alt="">
+        <img class="img" *ngIf="!showdetails" (click)="viewDetails()" src="{{item.image}}" alt="">
+
+      <div >  <ngb-rating class="rate" content="rating" [formControl]="ratingControl" (click)="getRating()" [max]="5"></ngb-rating></div>
+        <td *ngIf="showdetails" routerLink="/details/{{item.id}}"  class="head1 w3-panel w3-border w3-round-xlarge w3-theme-l1 w3-hover-border-black"><strong><h4  [ngStyle]="{ 'color': 'Red'}">{{item.name}}</h4></strong></td>
+        <td *ngIf="!showdetails" (click)="viewDetails()" class="head1 w3-panel w3-border w3-round-xlarge w3-theme-l1 w3-hover-border-black"><strong><h4  [ngStyle]="{ 'color': 'Red'}">{{item.name}}</h4></strong></td>
+
+       <div class="product-details">
+
+        <tr >
+          <td class="head w3-panel w3-border w3-round-xlarge w3-theme-l1 ">Price: </td>
+          <td class="head w3-panel w3-border w3-round-xlarge w3-theme-l1 "[ngStyle]="{'text-align': 'right', 'color': 'green'}">
+            <strong *ngIf="!applyOffer"  >{{item.price|currency:'INR'}}</strong>
+            <strong *ngIf="applyOffer"  >{{item.price|percentage|currency:'INR'}}</strong>
+          </td>
+        </tr>
+
+      </div>
+       </div>
+       <div class="product-footer">
+
+
+       </div>
+    </div>
+
+   </div>
+</div>
+<body>
+  <app-footer></app-footer>
+
+

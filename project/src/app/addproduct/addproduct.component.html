@@ -1,0 +1,51 @@
+<div class="add-product">
+
+  <p class="message-p">{{addProductMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form ">
+      <h1>Add new car</h1>
+
+      <div class="col-md-12">
+  <input type="text" class="form-input col-md-12" placeholder="Enter car name" name="name"  #name="ngModel" ngModel required/>
+  <p class="invalid-input"><span *ngIf="(name.errors?.['required'])&& name.touched">  Car name is required</span></p>
+</div>
+  <div class="row">
+   <div class="col-md-6">
+    <input type="number" class="form-input " placeholder="Enter Car Price" name="price" #price="ngModel" ngModel required="required"/>
+    <p class="invalid-input"><span *ngIf="(price.errors?.['required'])&& name.touched">Price is required</span></p>
+   </div>
+   <div class="col-md-6">
+      <input type="text" class="form-input" placeholder="Enter Car colour" name="colour" #colour="ngModel" ngModel required/>
+      <p class="invalid-input"><span *ngIf="(colour.errors?.['required'])&& name.touched">Colour is required</span></p>
+</div>
+  </div>
+  <div class="col-md-12">
+      <input type="text" class="form-input col-md-12" placeholder="Enter  Brand name" name="brand"  #brand="ngModel" ngModel required/>
+      <p class="invalid-input"><span *ngIf="(brand.errors?.['required'])&& name.touched">Brand is required</span></p>
+    </div>
+    <div class="col-md-12">
+      <input type="text" class="form-input col-md-12" placeholder="Enter Car Fuel type" name="fueltype" #fueltype="ngModel" ngModel required/>
+      <p class="invalid-input"><span *ngIf="(fueltype.errors?.['required'])&& name.touched">Fueltype is required</span></p>
+    </div>
+     <div class="col-md-12">
+
+      <input type="number" class="form-input col-md-12" placeholder="Enter number of seats" name="seat" #seat="ngModel" ngModel required required/>
+      <p class="invalid-input"><span *ngIf="(seat.errors?.['required'])&& name.touched">Seat is required</span></p>
+      </div>
+      <div class="col-md-12">
+      <input type="text" class="form-input col-md-12" placeholder="Enter Car Transmission" name="transmission" #transmission="ngModel" ngModel required/>
+      <p class="invalid-input"><span *ngIf="(transmission.errors?.['required'])&& name.touched">Transmiision is required</span></p>
+     </div>
+      <div class="col-md-12">
+      <input type="text" class="form-input col-md-12" placeholder="Enter  Description" name="description" #description="ngModel" ngModel required/>
+      <p class="invalid-input"><span *ngIf="(description.errors?.['required'])&& name.touched">Description is required</span></p>
+</div>
+   <!-- <img [src]="url" />
+
+      <input type="file" id="img" (change)="onselectFile($event)" > -->
+      <div class="col-md-12">
+     <input type="text" class="form-input col-md-12" placeholder="Add car Image URL" name="image" #image="ngModel" ngModel required/>
+     </div>
+      <button [disabled]="addProduct.invalid" class="form-button">Add Product</button>
+    </form>
+
+</div>

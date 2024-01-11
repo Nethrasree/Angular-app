@@ -1,0 +1,45 @@
+table{
+  text-align: left;
+  color: rgb(21, 20, 21);
+  border-collapse: collapse;
+  width: 1150px;
+}
+table td{
+  border:1px solid rgb(232, 222, 222);
+  padding: 10px;
+  min-height: 160px;
+  font-weight: bolder;
+}
+table th{
+  border:1px solid rgb(232, 222, 222);
+  padding: 10px;
+  min-height: 160px;
+  background-clip: value;
+  background: linear-gradient(to right, #170202,
+  #ff0202, #790404, #0a0a0a);
+      -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+}
+img{
+  width:100px;
+  height:100px;
+}
+.adjust-update-link
+{
+  color: darkgreen;
+  margin-right: 10px;
+}
+.deleteicon{
+  color: rgb(100, 5, 0);
+}
+.product-List h1{
+  margin-top: 40px ;
+  margin-bottom: 80px solid ;
+  text-align: center;
+  text-transform: initial;
+  background-clip: value;
+  background: linear-gradient(to right, #f32170,
+  #ff6b08, #cf23cf, #eedd44);
+      -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+ }

@@ -1,0 +1,35 @@
+<div class="product-List">
+  <h1> CAR LIST</h1>
+  <p class="message-p">{{productMessage}}</p>
+  <table >
+    <thead>
+      <tr>
+
+        <th>Name</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Colour</th>
+        <th>Brand</th>
+        <th>Fuel Type</th>
+        <th>Seat</th>
+        <th>Transmission</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of productList">
+        <td [ngStyle] ="{'color': 'red'}" routerLink="/updateproduct/{{item.id}}"><strong>{{item.name}}</strong></td>
+        <td routerLink="/updateproduct/{{item.id}}"><img src="{{item.image}}"/></td>
+        <td [ngStyle] ="{'color': 'Green'}"><strong>{{item.price|percentage|currency: 'INR':'symbol':'1.2-2'}}</strong></td>
+        <td >{{item.colour}}</td>
+        <td>{{item.brand}}</td>
+        <td>{{item.fueltype}}</td>
+        <td>{{item.seat}}</td>
+        <td>{{item.transmission}}</td>
+        <td>{{item.description}}</td>
+        <td>
+          <fa-icon class="deleteicon" (click)="deleteProduct(item.id)" [icon]="deleteicon"></fa-icon>
+      </tr>
+  </table>
+</div>

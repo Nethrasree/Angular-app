@@ -1,0 +1,131 @@
+<div class="row product-details" *ngIf="productData">
+  <div class="col-sm-6 selling-col-2">
+      <div class="selling-img">
+        <img src="{{productData.image}}" alt="">
+      </div>
+  </div>
+
+  <div class="selling-col-3">
+    <div class="selling-heading">
+      <a href="javascript:void(0);">{{productData.name}}</a>
+      <div class="selling-rating">
+         <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+
+      </div>
+    </div>
+    <div>
+      <p>  {{productData.description}}</p>
+        <h3>
+          <span class="selling-amount">{{productData.price|currency:'INR'}}</span>
+        </h3>
+
+        <h3>
+          <span class="fueltype"><i style='font-size:24px' class='fas'>&#xf52f;</i></span>
+          <span class="fueltype1">  {{productData.fueltype}}</span>
+        </h3>
+        <h3>
+          <span class="fueltype"><i style='font-size:24px' class='fas'>&#xf6c0;</i>&nbsp;</span>
+          <span class="fueltype1">  {{productData.seat}} Person</span>
+        </h3>
+        <h3>
+          <span class="fueltype"><i style="font-size:24px" class="fa">&#xf1b9;</i></span>
+          <span class="fueltype1">  {{productData.brand}} </span>
+        </h3>
+
+        <h3>
+           <span class="fueltype"><i style="font-size:24px" class="fa fa-gear fa-spin">&#xf013;</i></span>
+           <span class="fueltype1">  {{productData.transmission}}</span>
+        </h3>
+       <div class="selling-button">
+      <a href="javascript:void(0);"  *ngIf="!removeCart" class="cart-btn form-button" (click)="addToCart()"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+      <a href="javascript:void(0);"  *ngIf="removeCart" class="cart-btn form-button" (click)="removeToCart(productData.id)"><i class="fa fa-shopping-cart"></i>Remove from Cart</a>
+      <!-- <button type="button " class="main-button">
+        <a href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+        <a href="javascript:void(0);"><i class="fa fa-search"></i></a>
+      </button> -->
+
+     </div>
+     <!-- <div class="quantity-group">
+      <button class="btn btn-warning" (click)="handleQuantity('min')" >-</button>
+      <input class="btn btn-outline-grey" type="text" value="{{productQuantity}}" />
+      <button class="btn btn-warning" (click)="handleQuantity('plus')">+</button>
+     </div> -->
+
+     <p>
+        <span class="fueltype"><i style="font-size:24px" class="fa">&#xf132;</i>&nbsp;</span>
+        Safety Assured
+        <span class="fueltype1"> 2 Airbags and Anitlock Braking System</span>
+     </p>
+     <p>
+      <span class="fueltype"><i class="material-icons">&#xe322;</i>&nbsp;</span>
+      Safety Assured
+      <span class="fueltype1"> Engine Capacity 1199 cc</span>
+   </p>
+
+
+</div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" *ngIf="productData">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex flex-row bd-highlight mb-3 ">
+                <div class="p-2 w-50 bd-highlight">
+                <div class="input-group mb-3">
+                <span class="input-group-text"> car Name</span>
+                 <input type="text" class="form-control " [(ngModel)]="name" value="{{productData.name}}" >
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Price</span>
+                   <input type="text" class="form-control" value="{{productData.price}}">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text">Email</span>
+                     <input type="text" class="form-control" [(ngModel)]="email" >
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">Gender</span>
+                       <input type="text" class="form-control" [(ngModel)]="gender">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text">Address</span>
+                         <input type="text" class="form-control" [(ngModel)]="address">
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                          <span class="input-group-text">Mobile Number</span>
+                           <input type="text" class="form-control" [(ngModel)]="mobileNo" >
+                          </div>
+                        </div>
+                            <div class= "p-2 w-50 bd-highlight">
+
+
+                              <div class="selling-img">
+
+                              <img width="250px" height="250px" type="link" [src]=""/>
+                              <input type="file" id="img" >
+
+                            </div>
+
+                      </div>
+                      <button type="button" data-bs-dismiss="modal"  *ngIf="personId==0" (click)="checkOut()" class="btn btn-primary">
+                        save
+                        </button>
+                <button type="button" (click)="updateClick()" *ngIf="personId!=0" class="btn btn-primary" >
+                update
+                </button>
+              </div>
+
+        </div>
+    </div>

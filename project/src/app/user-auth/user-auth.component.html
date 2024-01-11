@@ -1,0 +1,71 @@
+
+ <div class="user-auth">
+
+  <p class="message-p">{{Message}}</p>
+  <img class="image-login" src="https://static.vecteezy.com/system/resources/previews/006/905/141/non_2x/underwater-wave-surface-background-free-photo.JPG">
+  <form *ngIf="showLogin" [formGroup]="login" (ngSubmit)= "logins(login.value)" class="form-box">
+    <h6>Login</h6>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" formControlName="email" class="form-control mb-3 mt-3" placeholder="Enter Email"/>
+        <div *ngIf="login.get('email').errors && login.get('email').touched">
+          <div *ngIf="login.get('email').errors.required">Email is required.</div>
+          <div *ngIf="login.get('email').errors.email">Please enter a valid email address.</div>
+          <div *ngIf="login.get('email').errors.pattern">Please enter a correct email address.</div>
+      </div>
+      </div>
+
+      <div class="form-group">
+          <label>Password</label>
+          <input type="password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Enter Password"/>
+          <div *ngIf="login.get('password').errors && login.get('password').touched">
+            <div *ngIf="login.get('password').errors.required">password is required.</div>
+            <div *ngIf="login.get('password').errors.pattern">Strong Password: must be 8 characters ,atleast one Uppercase,one lowercase,one special character and one number.</div>
+        </div>
+
+      </div>
+
+      <button class="form-button" [disabled]="login.invalid" >submit</button>
+      Don't Have Account? Click to  <a class="auth-toggle-link form-button"><a (click)="openSignUp()"> Signup</a></a>
+
+  </form>
+</div>
+
+<div class="user-auth">
+  <p class="error-p">{{authError}}</p>
+  <h1>Signup </h1>
+  <form *ngIf="!showLogin" [formGroup]="signup" (ngSubmit)= "signUp(signup.value)" class="form-box">
+    <h6>Signup</h6>
+      <div class="form-group">
+          <label><strong>User Name</strong></label>
+          <input type="text" formControlName="name" class="form-control mb-3 mt-3" placeholder="Enter Name"/>
+          <div *ngIf="signup.get('name').errors && signup.get('name').touched">
+            <div *ngIf="signup.get('name').errors.required">Name is required.</div>
+            <div *ngIf="signup.get('name').errors.pattern">Please enter a valid username (alphanumeric characters and underscores only).</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" formControlName="email" class="form-control mb-3 mt-3" placeholder="Enter Name"/>
+        <div *ngIf="signup.get('email').errors && signup.get('email').touched">
+          <div *ngIf="signup.get('email').errors.required">Email is required.</div>
+          <div *ngIf="signup.get('email').errors.email">Please enter a valid email address.</div>
+          <div *ngIf="signup.get('email').errors.pattern">Please enter a correct email address.</div>
+      </div>
+    </div>
+
+      <div class="form-group">
+          <label>Password</label>
+          <input type="password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Enter Password"/>
+          <div *ngIf="signup.get('password').errors && signup.get('password').touched">
+            <div *ngIf="signup.get('password').errors.required">password is required.</div>
+            <div *ngIf="signup.get('password').errors.pattern">Strong Password: must be 8 characters ,atleast one Uppercase,one lowercase,one special character and one number.</div>
+        </div>
+      </div>
+
+      <br/>
+      <button class="form-button" [disabled]="signup.invalid">submit</button>
+      <a  class="auth-toggle-link "  (click)="openlogin()">Already Have Account?  Login</a>
+
+  </form>
+</div>

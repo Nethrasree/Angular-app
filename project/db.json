@@ -1,0 +1,391 @@
+{
+  "seller": [
+    {
+      "name": "Hari",
+      "email": "hari@gmail.com",
+      "password": "Hari@123",
+      "id": 1
+    },
+    {
+      "name": "Sree",
+      "email": "sree@gmail.com",
+      "password": "Sree@123",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "id": 1
+    }
+  ],
+  "signup": [],
+  "users": [
+    {
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "password": "Neha@123",
+      "id": 1
+    },
+    {
+      "name": "Meha",
+      "email": "meha@mail.com",
+      "password": "Meha@123",
+      "id": 2
+    },
+    {
+      "name": "Mithran",
+      "email": "mithran@gmail.com",
+      "password": "Mithran@123",
+      "id": 3
+    },
+    {
+      "name": "Nethra",
+      "email": "nethra@gmail.com",
+      "password": "Nethra@123",
+      "id": 4
+    },
+    {
+      "name": "Viki",
+      "email": "viki@gmail.com",
+      "password": "Viki@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Toyota Fortuner",
+      "price": "3259000",
+      "colour": "Black",
+      "brand": "Toyota",
+      "fueltype": "Petrol and Diesel",
+      "seat": "7",
+      "transmission": "Automatic And Manual",
+      "description": "The Toyota Fortuner is offered with two powertrain options that include a 2.7-litre petrol engine and a 2.8-litre diesel engine. The former produces 164bhp and 245Nm of torque while the latter produces 201bhp and 420Nm of torque (500Nm with AT). Transmission options include a six-speed manual unit and a six-speed automatic unit.",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=75",
+      "id": 1
+    },
+    {
+      "name": "Hyundai Grand i10 Nios",
+      "price": "573000",
+      "colour": "Navyblue",
+      "brand": "Hyundai",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "The new Grand i10 NIOS is an irresistible combination of cutting-edge technology, slick performance, and thoughtful safety for the young and restless. It is a driving force calling you to step in, stand out and add more to life.",
+      "image": "https://imgd.aeplcdn.com/370x208/n/9cnvp0b_1638887.jpg?q=75",
+      "id": 2
+    },
+    {
+      "name": "Volkswagen Virtus",
+      "price": "1148000",
+      "colour": "Brown",
+      "brand": "Toyota",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "Features on board the Virtus include a 10.1-inch touchscreen infotainment system with wireless Android Auto and Apple CarPlay, push-button start/stop, and a fully digital driver display. It also gets a single-pane sunroof, connected car tech, a wireless phone charger, ventilated front seats and rain-sensing wipers.",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/144681/virtus-exterior-right-rear-three-quarter.jpeg?isig=0&q=755",
+      "id": 3
+    },
+    {
+      "name": "Tata Altroz",
+      "price": "660000",
+      "colour": "Golden",
+      "brand": "Maruti",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "The Altroz is Tata’s premium hatchback that sits above the Tiago in the brand’s model range. It is available with a 1.2-litre naturally aspirated petrol engine, a turbocharged version of the same unit and a 1.5-litre diesel mill. While all engines get a 5-speed manual gearbox as standard, only the naturally aspirated petrol gets a 6-speed DCT auto gearbox. Commendably, the Altroz has a 5-star adult occupant crash protection rating from Global NCAP.",
+      "image": "https://imgd.aeplcdn.com/370x208/n/lfm5dva_1597306.jpg?q=75",
+      "id": 4
+    },
+    {
+      "name": "Maruti Swift",
+      "price": "599000",
+      "colour": "Grey",
+      "brand": "Maruti",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "The Swift is available in 2 transmission options: manual and automatic. The mileage of Swift ranges from 22.56 Kmpl on petrol to 30.9km/kg on cng.",
+      "image": "https://imgd.aeplcdn.com/370x208/n/hg8i4ta_1508711.jpg?q=75",
+      "id": 5
+    },
+    {
+      "name": "KIA Carnival",
+      "price": "3097000",
+      "colour": "black",
+      "brand": "KIA",
+      "fueltype": "Diesel",
+      "seat": "7",
+      "transmission": "Automatic",
+      "description": "The KIA carnival is a 7 seater MUV with mileage of 13.9 kmpl depending upon its trasmission and fuel type. ",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/41205/carnival-exterior-right-front-three-quarter-55.jpeg?isig=0&q=75",
+      "id": 6
+    },
+    {
+      "name": "Duster",
+      "price": "850000",
+      "colour": "Mahogany Brown",
+      "brand": "Renault",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Manual",
+      "description": "The Duster mileage is 13.9 to 19.87Kmpl.the manul variant has has mileage of 19.87.",
+      "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Renault/Duster/7704/1598257607089/front-left-side-47.jpg",
+      "id": 7
+    },
+    {
+      "name": "Skoda Slavia",
+      "price": "1139000",
+      "colour": "blue",
+      "brand": "Skoda",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "Skoda Slavia is available in india as petrol model.The claimed APRAI milege of slavia petrol manual is 19.47 kmpl.",
+      "image": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Skoda/Slavia/9813/1681805581204/front-left-side-47.jpg?tr=w-456",
+      "id": 8
+    },
+    {
+      "name": "MG Astor",
+      "price": 1081000,
+      "colour": "Red",
+      "brand": "MG Astor",
+      "fueltype": "Petrol ",
+      "seat": 5,
+      "transmission": "Automatic And Manual",
+      "description": "MG Astor is a 5 seater SUV available in a price range of Rs. 10.82 - 18.69 Lakh*. It is available in 16 variants, 2 engine options that are / compliant and 2 transmission options: Manual & Automatic. Other key specifications of the Astor include a kerb weight of 1450 and boot space of Liters. The Astor is available in 6 colours. Over 506 User reviews basis Mileage, Performance, Price and overall experience of users for MG Astor.",
+      "image": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/Astor/10269/1686570065608/front-left-side-47.jpg?tr=w-750",
+      "id": 9
+    },
+    {
+      "name": "Maruti Swift",
+      "price": 1111111,
+      "colour": "ssss",
+      "brand": "Maruti",
+      "fueltype": "Petrol and Diesel",
+      "seat": 5,
+      "transmission": "Automatic",
+      "description": "MG Astor is a 5 seater SUV available in a price range of Rs. 10.82 - 18.69 Lakh*. It is available in 16 variants, 2 engine options that are / compliant and 2 transmission options: Manual & Automatic. Other key specifications of the Astor include a kerb weight of 1450 and boot space of Liters. The Astor is available in 6 colours. Over 506 User reviews basis Mileage, Performance, Price and overall experience of users for MG Astor.",
+      "image": "https://imgd.aeplcdn.com/370x208/n/hg8i4ta_1508711.jpg?q=75",
+      "id": 10
+    }
+  ],
+  "cart": [
+    {
+      "name": "Toyota Fortuner",
+      "price": "4000",
+      "colour": "Black",
+      "brand": "Toyota",
+      "fueltype": "Petrol and Diesel",
+      "seat": "7",
+      "transmission": "Automatic And Manual",
+      "description": "The Swift is available in 2 transmission options: manual and automatic. The mileage of Swift ranges from 22.56 Kmpl on petrol to 30.9km/kg on cng.",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=75",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Maruti Swift",
+      "price": "599000",
+      "colour": "Grey",
+      "brand": "Maruti",
+      "fueltype": "Petrol and Diesel",
+      "seat": "5",
+      "transmission": "Automatic And Manual",
+      "description": "The Swift is available in 2 transmission options: manual and automatic. The mileage of Swift ranges from 22.56 Kmpl on petrol to 30.9km/kg on cng.",
+      "image": "https://imgd.aeplcdn.com/370x208/n/hg8i4ta_1508711.jpg?q=75",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 5,
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "email": "nethrasree0307@gmail.com",
+      "address": "39,GKD SCHOOL BACK SIDE,KUPPICHIPALAYAM",
+      "contact": "6374135985",
+      "totalPrice": 5100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 1
+    },
+    {
+      "email": "nethrasree0307@gmail.com",
+      "address": "39,GKD SCHOOL BACK SIDE,KUPPICHIPALAYAM",
+      "contact": "6374135985",
+      "totalPrice": 11100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 2
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 3
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 4
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 5
+    },
+    {
+      "totalPrice": 1146100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 7
+    },
+    {
+      "totalPrice": 5734100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 8
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 9
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 10
+    },
+    {
+      "totalPrice": 1139100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 11
+    },
+    {
+      "totalPrice": 1139100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 12
+    },
+    {
+      "totalPrice": 1139100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 13
+    },
+    {
+      "totalPrice": 3097100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 14
+    },
+    {
+      "totalPrice": 1111211,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 15
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 16
+    },
+    {
+      "totalPrice": 1712100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 17
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 18
+    },
+    {
+      "totalPrice": 573100,
+      "userId": 1,
+      "cardOwnerName": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "securityCode": "",
+      "id": 19
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "data": "base64-encoded-image-data-1"
+    },
+    {
+      "id": 2,
+      "data": "base64-encoded-image-data-2"
+    }
+  ]
+}

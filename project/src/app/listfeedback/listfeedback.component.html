@@ -1,0 +1,74 @@
+<div class="product-List">
+  <h1> FEEDBACK LIST</h1>
+  <p class="message-p"></p>
+  <table >
+    <thead>
+      <!-- <form [formGroup]="feedbackformgroup" (ngSubmit)="Onsubmit()"> -->
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>MobileNumber</th>
+        <th>Message</th>
+        <th>Action</th>
+      </tr>
+    <!-- </form> -->
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of feedBackArray">
+        <td>{{item.Name}}</td>
+        <td>{{item.Email}}</td>
+        <td>{{item.MobileNo}}</td>
+        <td>{{item.Message}}</td>
+        <td>
+          <!-- <button data-bs-toggle="modal"
+          data-bs-target="#exampleModal"(click)="fillfeedback(item)" class="btn btn-warning">Edit</button> -->
+          <button (click)="deleteFeedBacks(item.feedbackId)" class="btn btn-success">Delete</button>
+         </td>
+     </tr>
+     </tbody>
+  </table>
+</div>
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body"  >
+            <div class="d-flex flex-row bd-highlight mb-3 ">
+              <div *ngFor="let item of feedBackArray">
+              <div class="p-2 w-70 bd-highlight" >
+
+
+        <form  class="w3-container w3-card-4 w3-padding-16 w3-white" [formGroup]="feedBackFormGroup" (ngSubmit)="onSubmit()" target="_blank">
+
+              <div class="input-group mb-3">
+              <span class="input-group-text">Name </span>
+               <input type="text" formControlName="name" value="{{item.Name}}"  class="form-control "  >
+              </div>
+                    <div class="input-group mb-3">
+                  <span class="input-group-text">Email</span>
+                   <input type="text" formControlName="email" value="{{item.Email}}" class="form-control"  >
+                  </div>
+                       <div class="input-group mb-3">
+                        <span class="input-group-text">Mobile Number</span>
+                        <input type="text"  formControlName="mobileNo" value="{{item.MobileNo}}" class="form-control" >
+                        </div>
+                        <div class="input-group mb-3">
+                          <span class="input-group-text">Message</span>
+                           <input type="text" formControlName="message" value="{{item.Message}}" class="form-control" >
+                          </div>
+                          <button  type="submit"   class="btn btn-primary" >
+                            update
+                           </button>
+
+                  </form>
+              </div>
+
+
+</div>
+
+          </div>
+      </div> -->

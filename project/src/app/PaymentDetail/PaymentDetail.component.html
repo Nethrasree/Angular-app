@@ -1,0 +1,57 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+  <p class="fw-bold mb-4 pb-2">Saved cards:</p>
+<div>
+  <div class="d-flex flex-row align-items-center mb-4 pb-1">
+    <img class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png" />
+    <div class="flex-fill mx-3">
+      <div class="form-outline">
+        <input type="text" id="formControlLgXc" class="form-control form-control-lg"
+          value="**** **** **** 3193" />
+        <label class="form-label" for="formControlLgXc">Card Number</label>
+      </div>
+    </div>
+    <a href="#!">Remove card</a>
+  </div>
+  <div class="d-flex flex-row align-items-center mb-4 pb-1">
+    <img class="img-fluid" src="https://img.icons8.com/color/48/000000/visa.png" />
+    <div class="flex-fill mx-3">
+      <div class="form-outline">
+        <input type="text" id="formControlLgXs" class="form-control form-control-lg"
+          value="**** **** **** 4296" />
+        <label class="form-label" for="formControlLgXs">Card Number</label>
+      </div>
+    </div>
+    <a href="#!">Remove card</a>
+  </div>
+</div>
+  <input type="hidden" name="paymentDetailId" [value]="service.formData.PaymentDetailId" />
+  <div class="form-group col-md-12">
+      <label>CARD OWNER NAME</label>
+      <input class="form-control form-control-lg" placeholder="Full Name" name="cardOwnerName"
+          #cardOwnerName="ngModel" [(ngModel)]="service.formData.cardOwnerName"
+          required [class.invalid]="cardOwnerName.invalid && cardOwnerName.touched">
+  </div>
+  <div class="form-group col-md-12">
+      <label>CARD NUMBER</label>
+      <input class="form-control form-control-lg" placeholder="16 Digit Card Number" name="cardNumber"
+          #cardNumber="ngModel" [(ngModel)]="service.formData.cardNumber"
+          required maxlength="16" minlength="16" [class.invalid]="cardNumber.invalid && cardNumber.touched">
+  </div>
+  <div class="row">
+      <div class="form-group col-md-6">
+          <label>SECURITY CODE</label>
+          <input type="password" class="form-control form-control-lg" placeholder="Security Code" name="securityCode"
+              #securityCode="ngModel" [(ngModel)]="service.formData.securityCode"
+              required maxlength="3" minlength="3" [class.invalid]="securityCode.invalid && securityCode.touched">
+      </div>
+      <div class="form-group col-md-5">
+          <label>VALIDE THROUGH</label>
+          <input class="form-control form-control-lg" placeholder="MM/YY" name="expirationDate"
+              #expirationDate="ngModel" [(ngModel)]="service.formData.expirationDate"
+              required maxlength="5" minlength="5" [class.invalid]="expirationDate.invalid && expirationDate.touched">
+      </div>
+    </div>
+  <div class="form-group">
+      <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">SUBMIT</button>
+  </div>
+</form>

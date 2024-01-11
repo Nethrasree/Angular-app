@@ -1,0 +1,23 @@
+<div class="checkout">
+  <h1>Payment</h1>
+
+  <p class="message-p">{{orderMsg}}</p>
+  <div class="row">
+    <div class="col-sm-7">
+      <p class="message-p"></p>
+      <form #orderData="ngForm" class="common-form"  (ngSubmit)="orderNow(orderData.value)">
+        <h3>Total Amount: {{amount|currency:'INR'}}</h3>
+        <!-- <h3>Total Amount: {{totalPrice}}</h3> -->
+
+        <button  class="form-button" (click)="opencardpayment()">cash Payment</button>
+
+
+      </form>
+
+
+
+  </div>
+
+
+  </div>
+</div>

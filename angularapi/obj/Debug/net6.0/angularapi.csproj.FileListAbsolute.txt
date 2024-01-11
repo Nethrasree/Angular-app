@@ -1,0 +1,303 @@
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\appsettings.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\angularapi.exe
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\angularapi.deps.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\angularapi.runtimeconfig.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.csproj.AssemblyReference.cache
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfoInputs.cache
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.csproj.CoreCompileInputs.cache
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\scopedcss\bundle\angularapi.styles.css
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.csproj.CopyComplete
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\refint\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\angularapi.genruntimeconfig.cache
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\obj\Debug\net6.0\ref\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Expressions.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\appsettings.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\angularapi.exe
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\angularapi.deps.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\angularapi.runtimeconfig.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Expressions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.csproj.AssemblyReference.cache
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfoInputs.cache
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.csproj.CoreCompileInputs.cache
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\scopedcss\bundle\angularapi.styles.css
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.csproj.CopyComplete
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\refint\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\angularapi.genruntimeconfig.cache
+C:\Users\nethra\Desktop\Angular Project\angularapi\obj\Debug\net6.0\ref\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\appsettings.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\angularapi.exe
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\angularapi.deps.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\angularapi.runtimeconfig.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Expressions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.csproj.AssemblyReference.cache
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfoInputs.cache
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.AssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.csproj.CoreCompileInputs.cache
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\scopedcss\bundle\angularapi.styles.css
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.csproj.CopyComplete
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\refint\angularapi.dll
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.pdb
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\angularapi.genruntimeconfig.cache
+C:\Users\nethra\Desktop\Angular Project\car sale\angularapi\obj\Debug\net6.0\ref\angularapi.dll

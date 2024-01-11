@@ -1,0 +1,616 @@
+2023-08-11 14:17:49.206 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 14:17:50.378 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 14:17:50.385 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 14:17:50.390 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 14:17:50.407 +05:30 [INF] Hosting environment: Development
+2023-08-11 14:17:50.408 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 14:28:16.776 +05:30 [INF] Application is shutting down...
+2023-08-11 14:28:51.098 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 14:28:51.915 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 14:28:52.284 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 14:28:52.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 14:28:52.574 +05:30 [INF] Hosting environment: Development
+2023-08-11 14:28:52.574 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 14:29:32.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 14:29:34.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 1360.6124ms
+2023-08-11 14:29:34.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 14:29:34.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui-bundle.js - -
+2023-08-11 14:29:35.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui-standalone-preset.js - -
+2023-08-11 14:29:35.227 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 14:29:35.275 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-11 14:29:35.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 432.6747ms
+2023-08-11 14:29:35.281 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 251.4616ms
+2023-08-11 14:29:35.493 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-11 14:29:35.510 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 533.2619ms
+2023-08-11 14:29:36.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 14:29:36.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 14:29:36.890 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 14:29:36.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 18.2114ms
+2023-08-11 14:29:37.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 407.0600ms
+2023-08-11 14:30:24.637 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:30:25.058 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:30:25.200 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:30:31.685 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:30:32.192 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 6963.905ms
+2023-08-11 14:30:32.312 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:30:32.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 7731.1746ms
+2023-08-11 14:31:19.302 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 218
+2023-08-11 14:31:19.312 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:31:19.321 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:31:19.424 +05:30 [INF] Route matched with {action = "Post", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:31:21.040 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:31:21.071 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Post (angularapi) in 1640.3183ms
+2023-08-11 14:31:21.083 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:31:21.086 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 218 - 200 - application/json;+charset=utf-8 1784.1681ms
+2023-08-11 14:31:59.842 +05:30 [INF] Application is shutting down...
+2023-08-11 14:32:10.903 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 14:32:13.238 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 14:32:13.926 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 14:32:14.424 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 14:32:14.655 +05:30 [INF] Hosting environment: Development
+2023-08-11 14:32:14.655 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 14:32:33.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 14:32:34.167 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 510.4175ms
+2023-08-11 14:32:34.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 14:32:34.502 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 14:32:34.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 134.0704ms
+2023-08-11 14:32:35.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 14:32:35.320 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.0712ms
+2023-08-11 14:32:35.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 14:32:35.589 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 14:32:35.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 396.3023ms
+2023-08-11 14:32:43.100 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:32:43.184 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:32:43.218 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:32:45.959 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:32:46.116 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 2884.7535ms
+2023-08-11 14:32:46.220 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:32:46.236 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 3135.4379ms
+2023-08-11 14:33:44.719 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/87 - -
+2023-08-11 14:33:44.729 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:33:44.750 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:33:44.766 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Int32) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:33:45.850 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:33:45.851 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 1078.3168ms
+2023-08-11 14:33:45.852 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:33:45.853 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/87 - - - 200 - application/json;+charset=utf-8 1133.5199ms
+2023-08-11 14:33:58.600 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:33:58.633 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:33:58.877 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:33:58.880 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:33:58.898 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 19.9412ms
+2023-08-11 14:33:58.899 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:33:58.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 299.9894ms
+2023-08-11 14:34:27.992 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 201
+2023-08-11 14:34:27.995 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:34:27.996 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:34:28.025 +05:30 [INF] Route matched with {action = "Post", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:34:28.208 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:34:28.210 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Post (angularapi) in 182.6636ms
+2023-08-11 14:34:28.211 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:34:28.211 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 201 - 200 - application/json;+charset=utf-8 219.0891ms
+2023-08-11 14:34:36.040 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:34:36.073 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:34:36.074 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:34:36.259 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:34:36.260 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 184.6925ms
+2023-08-11 14:34:36.274 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:34:36.277 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 237.0514ms
+2023-08-11 14:45:45.513 +05:30 [INF] Application is shutting down...
+2023-08-11 14:46:05.768 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 14:46:07.359 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 14:46:08.726 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 14:46:08.733 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 14:46:08.739 +05:30 [INF] Hosting environment: Development
+2023-08-11 14:46:08.740 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 14:46:40.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 14:46:40.617 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 551.9490ms
+2023-08-11 14:46:40.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 14:46:41.076 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 14:46:41.264 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 398.5254ms
+2023-08-11 14:46:41.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 14:46:41.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 14:46:41.666 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 14:46:41.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 63.3369ms
+2023-08-11 14:46:41.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.8790ms
+2023-08-11 14:47:07.294 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 210
+2023-08-11 14:47:07.308 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:47:07.413 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:47:07.480 +05:30 [INF] Route matched with {action = "Post", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:47:10.000 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:47:10.197 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Post (angularapi) in 2695.1305ms
+2023-08-11 14:47:10.264 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 14:47:10.278 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 210 - 200 - application/json;+charset=utf-8 2983.9101ms
+2023-08-11 14:47:13.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:47:13.578 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:47:13.596 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:47:13.984 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:47:14.008 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 395.7074ms
+2023-08-11 14:47:14.023 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:47:14.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 448.6360ms
+2023-08-11 14:48:44.154 +05:30 [INF] Application is shutting down...
+2023-08-11 14:56:33.051 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 14:56:33.387 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 14:56:33.579 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 14:56:33.591 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 14:56:33.593 +05:30 [INF] Hosting environment: Development
+2023-08-11 14:56:33.593 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 14:57:06.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 14:57:06.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 451.4342ms
+2023-08-11 14:57:06.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 14:57:07.082 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 14:57:07.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 103.7587ms
+2023-08-11 14:57:07.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 14:57:07.554 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 14:57:07.636 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 14:57:07.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 83.9322ms
+2023-08-11 14:57:07.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 251.1908ms
+2023-08-11 14:57:14.951 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PaymentDetail - -
+2023-08-11 14:57:15.018 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:15.150 +05:30 [INF] Route matched with {action = "GetPaymentDetails", controller = "PaymentDetail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Angularapi.Models.PaymentDetail]]] GetPaymentDetails() on controller Angularapi.Controllers.PaymentDetailController (angularapi).
+2023-08-11 14:57:17.631 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 14:57:21.296 +05:30 [INF] Executed DbCommand (686ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PaymentDetailsId], [p].[CardNumber], [p].[CardOwnerName], [p].[ExpirationDate], [p].[SecurityCode]
+FROM [paymentdetails] AS [p]
+2023-08-11 14:57:21.418 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.PaymentDetail, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 14:57:21.741 +05:30 [INF] Executed action Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi) in 6575.0644ms
+2023-08-11 14:57:21.778 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:21.783 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PaymentDetail - - - 200 2 application/json;+charset=utf-8 6831.9626ms
+2023-08-11 14:57:26.879 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PaymentDetail - -
+2023-08-11 14:57:27.010 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:27.026 +05:30 [INF] Route matched with {action = "GetPaymentDetails", controller = "PaymentDetail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Angularapi.Models.PaymentDetail]]] GetPaymentDetails() on controller Angularapi.Controllers.PaymentDetailController (angularapi).
+2023-08-11 14:57:27.030 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 14:57:27.066 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PaymentDetailsId], [p].[CardNumber], [p].[CardOwnerName], [p].[ExpirationDate], [p].[SecurityCode]
+FROM [paymentdetails] AS [p]
+2023-08-11 14:57:27.115 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.PaymentDetail, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 14:57:27.116 +05:30 [INF] Executed action Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi) in 87.8599ms
+2023-08-11 14:57:27.117 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:27.118 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PaymentDetail - - - 200 2 application/json;+charset=utf-8 238.6576ms
+2023-08-11 14:57:29.951 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PaymentDetail - -
+2023-08-11 14:57:29.957 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:29.958 +05:30 [INF] Route matched with {action = "GetPaymentDetails", controller = "PaymentDetail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Angularapi.Models.PaymentDetail]]] GetPaymentDetails() on controller Angularapi.Controllers.PaymentDetailController (angularapi).
+2023-08-11 14:57:30.097 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 14:57:30.296 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PaymentDetailsId], [p].[CardNumber], [p].[CardOwnerName], [p].[ExpirationDate], [p].[SecurityCode]
+FROM [paymentdetails] AS [p]
+2023-08-11 14:57:30.581 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.PaymentDetail, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 14:57:30.843 +05:30 [INF] Executed action Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi) in 859.4869ms
+2023-08-11 14:57:30.866 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PaymentDetailController.GetPaymentDetails (angularapi)'
+2023-08-11 14:57:30.867 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PaymentDetail - - - 200 2 application/json;+charset=utf-8 915.4250ms
+2023-08-11 14:57:40.854 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:57:40.864 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:57:40.869 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:57:41.158 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:57:41.205 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 323.4815ms
+2023-08-11 14:57:41.396 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:57:41.397 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 542.7348ms
+2023-08-11 14:57:58.952 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/86 - -
+2023-08-11 14:57:58.959 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:57:58.978 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:57:59.007 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Int32) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:57:59.074 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:57:59.088 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 78.7546ms
+2023-08-11 14:57:59.089 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:57:59.090 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/86 - - - 200 - application/json;+charset=utf-8 137.7099ms
+2023-08-11 14:58:12.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:58:12.456 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:58:12.466 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:58:12.535 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:58:12.536 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 13.6098ms
+2023-08-11 14:58:12.537 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:58:12.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 187.3005ms
+2023-08-11 14:58:28.763 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/85 - -
+2023-08-11 14:58:28.766 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:58:28.767 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:58:28.768 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Int32) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:58:28.786 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:58:28.797 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 27.549ms
+2023-08-11 14:58:28.798 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:58:28.799 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/85 - - - 200 - application/json;+charset=utf-8 35.2774ms
+2023-08-11 14:58:38.466 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/84 - -
+2023-08-11 14:58:38.499 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:58:38.501 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:58:38.514 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Int32) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:58:38.527 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 14:58:38.529 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 14.3187ms
+2023-08-11 14:58:38.530 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:58:38.531 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/84 - - - 200 - application/json;+charset=utf-8 64.6829ms
+2023-08-11 14:58:44.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 14:58:44.281 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:58:44.282 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:58:44.299 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 14:58:44.301 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 4.8722ms
+2023-08-11 14:58:44.333 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 14:58:44.341 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 75.8196ms
+2023-08-11 14:59:23.501 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 230
+2023-08-11 14:59:23.502 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:59:23.503 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:59:23.505 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:59:23.728 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-08-11 14:59:23.783 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 264.1159ms
+2023-08-11 14:59:23.785 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:59:23.786 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 230 - 400 432 application/problem+json;+charset=utf-8 284.8820ms
+2023-08-11 14:59:39.274 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 215
+2023-08-11 14:59:39.280 +05:30 [INF] CORS policy execution successful.
+2023-08-11 14:59:39.281 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:59:39.281 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 14:59:39.284 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-08-11 14:59:39.313 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 30.314ms
+2023-08-11 14:59:39.318 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 14:59:39.319 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 215 - 400 432 application/problem+json;+charset=utf-8 44.9611ms
+2023-08-11 15:09:39.976 +05:30 [INF] Application is shutting down...
+2023-08-11 15:10:21.958 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 15:10:23.949 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 15:10:24.560 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 15:10:24.580 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 15:10:24.584 +05:30 [INF] Hosting environment: Development
+2023-08-11 15:10:24.590 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 15:10:26.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:10:27.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 504.5097ms
+2023-08-11 15:10:27.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:10:27.915 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui-bundle.js - -
+2023-08-11 15:10:27.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui-standalone-preset.js - -
+2023-08-11 15:10:28.176 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:10:28.189 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 323.4247ms
+2023-08-11 15:10:28.794 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-11 15:10:28.838 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 860.1255ms
+2023-08-11 15:10:28.875 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-11 15:10:29.046 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 1130.6272ms
+2023-08-11 15:10:29.323 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:10:29.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 215.5828ms
+2023-08-11 15:10:29.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:10:29.828 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:10:29.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 290.1779ms
+2023-08-11 15:10:35.340 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:10:35.612 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:10:35.710 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:10:43.233 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:10:44.392 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 8673.574ms
+2023-08-11 15:10:44.572 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:10:44.573 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 9233.1691ms
+2023-08-11 15:10:48.159 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:10:48.165 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:10:48.337 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:10:48.414 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:10:48.423 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 14.985ms
+2023-08-11 15:10:48.425 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:10:48.426 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 266.3162ms
+2023-08-11 15:11:23.142 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 234
+2023-08-11 15:11:23.153 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:11:23.199 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 15:11:23.215 +05:30 [INF] Route matched with {action = "Put", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Put(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:11:24.978 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 15:11:25.086 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Put (angularapi) in 1855.9081ms
+2023-08-11 15:11:25.270 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Put (angularapi)'
+2023-08-11 15:11:25.280 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7266/api/PersonalDetail application/json-patch+json 234 - 200 - application/json;+charset=utf-8 2138.3950ms
+2023-08-11 15:11:33.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:11:33.532 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:11:33.549 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:11:33.579 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:11:33.581 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 30.1068ms
+2023-08-11 15:11:33.582 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:11:33.582 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 70.4360ms
+2023-08-11 15:11:57.472 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/83 - -
+2023-08-11 15:11:57.476 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:11:57.477 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Delete (angularapi)'
+2023-08-11 15:11:57.506 +05:30 [INF] Route matched with {action = "Delete", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Delete(Int32) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:11:57.704 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 15:11:57.727 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Delete (angularapi) in 216.722ms
+2023-08-11 15:11:57.728 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Delete (angularapi)'
+2023-08-11 15:11:57.745 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/PersonalDetail/83 - - - 200 - application/json;+charset=utf-8 273.0787ms
+2023-08-11 15:12:07.655 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:12:07.656 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:12:07.657 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:12:07.663 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:12:07.675 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 17.6532ms
+2023-08-11 15:12:07.686 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:12:07.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 32.3542ms
+2023-08-11 15:18:52.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:18:52.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 187.7029ms
+2023-08-11 15:18:52.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:18:52.920 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:18:52.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 13.2759ms
+2023-08-11 15:18:53.227 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:18:53.227 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:18:53.493 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 266.2801ms
+2023-08-11 15:18:53.499 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:18:53.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 273.6544ms
+2023-08-11 15:18:58.863 +05:30 [INF] Application is shutting down...
+2023-08-11 15:19:21.397 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 15:19:22.137 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 15:19:22.150 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 15:19:22.153 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 15:19:22.160 +05:30 [INF] Hosting environment: Development
+2023-08-11 15:19:22.162 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 15:19:56.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:19:56.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 241.0895ms
+2023-08-11 15:19:57.166 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:19:57.196 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:19:57.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 43.4008ms
+2023-08-11 15:19:57.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:19:57.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:19:57.578 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.9741ms
+2023-08-11 15:19:57.605 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:19:57.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 603.8635ms
+2023-08-11 15:21:14.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:21:14.800 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:21:14.823 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:21:16.649 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:21:16.786 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 1957.9705ms
+2023-08-11 15:21:16.805 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:21:16.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 2301.2940ms
+2023-08-11 15:21:36.836 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 211
+2023-08-11 15:21:36.841 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:21:36.853 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 15:21:36.871 +05:30 [INF] Route matched with {action = "Post", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:21:37.423 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 15:21:37.430 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Post (angularapi) in 556.8234ms
+2023-08-11 15:21:37.436 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 15:21:37.436 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 211 - 200 - application/json;+charset=utf-8 600.4352ms
+2023-08-11 15:21:42.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:21:42.200 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:21:42.202 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:21:42.289 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:21:42.298 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 74.8371ms
+2023-08-11 15:21:42.299 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:21:42.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 102.3296ms
+2023-08-11 15:22:54.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:22:54.666 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:22:54.666 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:22:54.744 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:22:54.745 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 77.7985ms
+2023-08-11 15:22:54.746 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:22:54.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 81.7261ms
+2023-08-11 15:22:59.543 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 211
+2023-08-11 15:22:59.566 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:22:59.566 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 15:22:59.567 +05:30 [INF] Route matched with {action = "Post", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(Angularapi.Models.personaldetails) on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:22:59.642 +05:30 [INF] Executing JsonResult, writing value of type 'System.String'.
+2023-08-11 15:22:59.643 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Post (angularapi) in 75.5555ms
+2023-08-11 15:22:59.644 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Post (angularapi)'
+2023-08-11 15:22:59.645 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/PersonalDetail application/json-patch+json 211 - 200 - application/json;+charset=utf-8 101.4042ms
+2023-08-11 15:23:05.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/PersonalDetail - -
+2023-08-11 15:23:05.486 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:23:05.496 +05:30 [INF] Route matched with {action = "Get", controller = "PersonalDetail"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Get() on controller Angularapi.Controllers.PersonalDetailController (angularapi).
+2023-08-11 15:23:05.499 +05:30 [INF] Executing JsonResult, writing value of type 'System.Data.DataTable'.
+2023-08-11 15:23:05.500 +05:30 [INF] Executed action Angularapi.Controllers.PersonalDetailController.Get (angularapi) in 2.7732ms
+2023-08-11 15:23:05.511 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.PersonalDetailController.Get (angularapi)'
+2023-08-11 15:23:05.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/PersonalDetail - - - 200 - application/json;+charset=utf-8 31.4070ms
+2023-08-11 15:38:29.586 +05:30 [INF] Application is shutting down...
+2023-08-11 15:40:30.317 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 15:40:30.757 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 15:40:30.767 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 15:40:30.770 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 15:40:30.776 +05:30 [INF] Hosting environment: Development
+2023-08-11 15:40:30.777 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 15:40:35.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:40:35.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 245.5933ms
+2023-08-11 15:40:36.207 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:40:36.250 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:40:36.265 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 57.5344ms
+2023-08-11 15:40:36.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:40:36.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:40:36.534 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:40:36.534 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 54.5110ms
+2023-08-11 15:40:36.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.6090ms
+2023-08-11 15:40:44.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-08-11 15:40:44.210 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:40:44.275 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:40:45.739 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:40:49.138 +05:30 [INF] Executed DbCommand (807ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 15:40:49.193 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 15:40:49.397 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 5116.6622ms
+2023-08-11 15:40:49.413 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:40:49.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 2 application/json;+charset=utf-8 5314.8359ms
+2023-08-11 15:41:32.870 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110
+2023-08-11 15:41:32.878 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:41:32.888 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:41:32.902 +05:30 [INF] Route matched with {action = "AddFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFeedback(Angularapi.Models.FeedBack) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:41:32.985 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:41:33.384 +05:30 [INF] Executed DbCommand (115ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [feedback] ([feedbackId], [Email], [Message], [MobileNo], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-08-11 15:41:33.439 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBack'.
+2023-08-11 15:41:33.450 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.AddFeedback (angularapi) in 535.0943ms
+2023-08-11 15:41:33.454 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:41:33.455 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110 - 200 142 application/json;+charset=utf-8 585.5113ms
+2023-08-11 15:41:40.798 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110
+2023-08-11 15:41:40.801 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:41:40.803 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:41:40.803 +05:30 [INF] Route matched with {action = "AddFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFeedback(Angularapi.Models.FeedBack) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:41:40.896 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:41:40.905 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [feedback] ([feedbackId], [Email], [Message], [MobileNo], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-08-11 15:41:40.915 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBack'.
+2023-08-11 15:41:40.916 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.AddFeedback (angularapi) in 94.923ms
+2023-08-11 15:41:40.917 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:41:40.917 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110 - 200 142 application/json;+charset=utf-8 118.9449ms
+2023-08-11 15:42:20.266 +05:30 [INF] Application is shutting down...
+2023-08-11 15:42:37.991 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 15:42:39.216 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 15:42:39.227 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 15:42:39.230 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 15:42:39.235 +05:30 [INF] Hosting environment: Development
+2023-08-11 15:42:39.236 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 15:42:43.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-08-11 15:42:43.840 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:42:43.869 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:42:44.916 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:42:47.464 +05:30 [INF] Executed DbCommand (197ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 15:42:47.555 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 15:42:48.067 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 4191.6514ms
+2023-08-11 15:42:48.072 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:42:48.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 287 application/json;+charset=utf-8 4502.5905ms
+2023-08-11 15:42:57.477 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110
+2023-08-11 15:42:57.482 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:42:57.501 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:42:57.517 +05:30 [INF] Route matched with {action = "AddFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFeedback(Angularapi.Models.FeedBack) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:42:57.632 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:42:57.985 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [feedback] ([feedbackId], [Email], [Message], [MobileNo], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-08-11 15:42:58.031 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBack'.
+2023-08-11 15:42:58.047 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.AddFeedback (angularapi) in 528.1434ms
+2023-08-11 15:42:58.048 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:42:58.049 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110 - 200 142 application/json;+charset=utf-8 572.4222ms
+2023-08-11 15:43:06.159 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:43:06.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 240.9316ms
+2023-08-11 15:43:06.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:43:06.460 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:43:06.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 34.0604ms
+2023-08-11 15:43:06.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:43:06.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:43:06.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 168.0791ms
+2023-08-11 15:43:07.246 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:43:07.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 470.7621ms
+2023-08-11 15:43:18.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-08-11 15:43:18.927 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:43:18.928 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:43:18.994 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:43:19.008 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 15:43:19.010 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 15:43:19.011 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 81.5666ms
+2023-08-11 15:43:19.013 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 15:43:19.015 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 430 application/json;+charset=utf-8 103.9161ms
+2023-08-11 15:43:46.157 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110
+2023-08-11 15:43:46.170 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:43:46.171 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:43:46.172 +05:30 [INF] Route matched with {action = "AddFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFeedback(Angularapi.Models.FeedBack) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:43:46.174 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:43:46.186 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [feedback] ([feedbackId], [Email], [Message], [MobileNo], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-08-11 15:43:46.223 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBack'.
+2023-08-11 15:43:46.224 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.AddFeedback (angularapi) in 51.3604ms
+2023-08-11 15:43:46.225 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:43:46.231 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110 - 200 142 application/json;+charset=utf-8 73.6096ms
+2023-08-11 15:44:35.011 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/FeedBack/5420eb87-8662-4cc9-6cb1-08db9a538935 - -
+2023-08-11 15:44:35.012 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:44:35.013 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi)'
+2023-08-11 15:44:35.090 +05:30 [INF] Route matched with {action = "DeleteFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteFeedback(System.Guid) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:44:35.206 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:44:35.403 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-08-11 15:44:35.527 +05:30 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 15:44:35.780 +05:30 [INF] Executed DbCommand (235ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [feedback]
+WHERE [feedbackId] = @p0;
+SELECT @@ROWCOUNT;
+2023-08-11 15:44:35.796 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 15:44:35.808 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi) in 603.8667ms
+2023-08-11 15:44:35.808 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi)'
+2023-08-11 15:44:35.809 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/FeedBack/5420eb87-8662-4cc9-6cb1-08db9a538935 - - - 200 - text/plain;+charset=utf-8 798.4986ms
+2023-08-11 15:45:44.588 +05:30 [INF] Application is shutting down...
+2023-08-11 15:56:51.015 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 15:56:52.323 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 15:56:52.810 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 15:56:52.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 15:56:52.864 +05:30 [INF] Hosting environment: Development
+2023-08-11 15:56:52.865 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 15:57:15.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 15:57:16.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 895.7212ms
+2023-08-11 15:57:16.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 15:57:17.512 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 15:57:17.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 867.0350ms
+2023-08-11 15:57:18.023 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 15:57:18.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 15:57:19.096 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 15:57:19.105 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 673.0343ms
+2023-08-11 15:57:19.769 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1746.3546ms
+2023-08-11 15:57:39.797 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110
+2023-08-11 15:57:39.803 +05:30 [INF] CORS policy execution successful.
+2023-08-11 15:57:40.308 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:57:40.585 +05:30 [INF] Route matched with {action = "AddFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFeedback(Angularapi.Models.FeedBack) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 15:57:43.199 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 15:57:46.989 +05:30 [INF] Executed DbCommand (321ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [feedback] ([feedbackId], [Email], [Message], [MobileNo], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-08-11 15:57:47.041 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBackResponse'.
+2023-08-11 15:57:47.171 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.AddFeedback (angularapi) in 6576.7507ms
+2023-08-11 15:57:47.333 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.AddFeedback (angularapi)'
+2023-08-11 15:57:47.336 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7266/api/FeedBack application/json-patch+json 110 - 200 191 application/json;+charset=utf-8 7539.1733ms
+2023-08-11 16:01:32.001 +05:30 [INF] Application is shutting down...
+2023-08-11 16:01:48.828 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 16:01:49.320 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 16:01:49.327 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 16:01:49.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 16:01:49.339 +05:30 [INF] Hosting environment: Development
+2023-08-11 16:01:49.340 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 16:07:27.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/api/FeedBack - -
+2023-08-11 16:07:27.319 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 16:07:27.363 +05:30 [INF] Route matched with {action = "GetFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeedback() on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 16:07:28.249 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 16:07:29.759 +05:30 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 16:07:29.910 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Angularapi.Models.FeedBack, angularapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 16:07:30.164 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.GetFeedback (angularapi) in 2795.9335ms
+2023-08-11 16:07:30.265 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.GetFeedback (angularapi)'
+2023-08-11 16:07:30.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/api/FeedBack - - - 200 573 application/json;+charset=utf-8 3127.7061ms
+2023-08-11 16:07:58.823 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7266/api/FeedBack/7b790feb-98e3-48e3-44b8-08db9a5598ff - -
+2023-08-11 16:07:58.828 +05:30 [INF] CORS policy execution successful.
+2023-08-11 16:07:58.841 +05:30 [INF] Executing endpoint 'Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi)'
+2023-08-11 16:07:58.908 +05:30 [INF] Route matched with {action = "DeleteFeedback", controller = "FeedBack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteFeedback(System.Guid) on controller Angularapi.Controllers.FeedBackController (angularapi).
+2023-08-11 16:07:58.920 +05:30 [INF] Entity Framework Core 6.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2023-08-11 16:07:59.026 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-08-11 16:07:59.140 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [f].[feedbackId], [f].[Email], [f].[Message], [f].[MobileNo], [f].[Name]
+FROM [feedback] AS [f]
+2023-08-11 16:07:59.284 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [feedback]
+WHERE [feedbackId] = @p0;
+SELECT @@ROWCOUNT;
+2023-08-11 16:07:59.307 +05:30 [INF] Executing OkObjectResult, writing value of type 'Angularapi.Models.FeedBackResponse'.
+2023-08-11 16:07:59.317 +05:30 [INF] Executed action Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi) in 407.3252ms
+2023-08-11 16:07:59.322 +05:30 [INF] Executed endpoint 'Angularapi.Controllers.FeedBackController.DeleteFeedback (angularapi)'
+2023-08-11 16:07:59.323 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7266/api/FeedBack/7b790feb-98e3-48e3-44b8-08db9a5598ff - - - 200 193 application/json;+charset=utf-8 500.5153ms
+2023-08-11 22:23:03.530 +05:30 [INF] Application is shutting down...
+2023-08-11 22:24:42.016 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 22:24:43.072 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 22:24:43.081 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 22:24:43.085 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 22:24:43.093 +05:30 [INF] Hosting environment: Development
+2023-08-11 22:24:43.094 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 22:28:00.780 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 22:28:01.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 610.2033ms
+2023-08-11 22:28:02.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 22:28:02.532 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 22:28:02.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 462.9893ms
+2023-08-11 22:28:03.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 22:28:03.421 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 22:28:03.463 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 22:28:03.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 328.9608ms
+2023-08-11 22:28:03.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 95.9676ms
+2023-08-11 22:31:36.626 +05:30 [INF] Application is shutting down...
+2023-08-11 22:32:00.551 +05:30 [INF] User profile is available. Using 'C:\Users\nethra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 22:32:01.566 +05:30 [INF] Now listening on: https://localhost:7266
+2023-08-11 22:32:01.573 +05:30 [INF] Now listening on: http://localhost:5255
+2023-08-11 22:32:01.576 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 22:32:01.577 +05:30 [INF] Hosting environment: Development
+2023-08-11 22:32:01.590 +05:30 [INF] Content root path: C:\Users\nethra\Desktop\Angular Project\Angular api\angularapi\
+2023-08-11 22:33:43.273 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/index.html - -
+2023-08-11 22:33:43.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/index.html - - - 200 - text/html;charset=utf-8 278.0171ms
+2023-08-11 22:33:43.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - -
+2023-08-11 22:33:43.672 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 22:33:43.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/swagger-ui.css - - - 200 144929 text/css 53.8844ms
+2023-08-11 22:33:43.880 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - -
+2023-08-11 22:33:43.929 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - -
+2023-08-11 22:33:44.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.3441ms
+2023-08-11 22:33:44.383 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 22:33:44.385 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7266/swagger/favicon-32x32.png - - - 200 628 image/png 455.6571ms

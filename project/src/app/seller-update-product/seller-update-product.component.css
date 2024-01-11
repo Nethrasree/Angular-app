@@ -1,0 +1,41 @@
+h1
+{
+  color: rgb(253, 252, 253);
+  text-align: center;
+}
+.update-product{
+  background-image: url("https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1700");
+  height: 1500px;
+  width: 1500px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+input{
+  display: block;
+  height: 60px;
+  width: 150%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 7px solid;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+
+}
+::placeholder{
+  color: #171616;
+}
+
+button{
+  margin-top: 50px;
+  width: 150%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
